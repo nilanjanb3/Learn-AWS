@@ -1,0 +1,49 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Prompts To Learn Cloud Services ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+########### Prompt to get topics ################
+List down a higher-level overview of topics of ec2. What key areas can be judged in a tough AWS interview for the most demanding practical hands-on skills required in recent days?
+- cover all areas regarding the most practical and real-world use cases.
+- cover topics like higher-level topics like security, reliability, availability, performance, cost optimizations, automation, compliance & governance, fault tolerance and disaster recovery with the result.
+
+########## Prompt to get Labs ###################
+Please design all required Labs for AWS EC2, which will cover all the required important aspects of AWS SAA C03 
+- Labs shall cover all the related EC2 topics
+- must cover all the important aspects and practical scenarios of EC2
+- must give a practical hands-on learning experience
+- Categorize according to the difficulty Level
+- Make sure numbers of medium and hard Labs are more than of basic labs
+- list it, for now, I'll ask about details later
+
+
+###### Prompt to get interview questions #########
+List top scenario-based AWS ec2 interview questions asked in recent interviews. 
+- include only below topics of Migration
+SEC2 Server Migration Service (SMS)
+AWS Application Migration Service (MGN)
+Migrating VMs to EC2 (VMware, Hyper-V, etc.)
+AWS Database Migration Service (DMS) with EC2
+- make sure it covers recent challenges and the most required practical hands-on skills demanded in top organizations. 
+- make sure the numbers of medium and hard-level questions are more than easy-level questions. 
+- categorize by difficulty level
+- In Markdown Result just keep the difficulty level and questions only, and use "####" in the difficulty level header
+
+############### Key Areas #########################
+Area: 
+1. creating, managing
+2. troubleshooting
+3. cross account,cross region
+4. security
+5. reliability, availability
+6. performance, cost optimizations
+7. automation and other service integration
+8. compliance & governance
+9. fault tolerance and disaster recovery
+10. backup & restore
+11. best practices
+
+
+#############LAB EXPLAIN######################
+
+
+Deploy an EC2 Auto Scaling Group using Launch Templates and CloudFormation
+- Explain this lab with Objective, Learning Topics, Requirements, Steps, Testing and Cleanup
+- Make sure to elaborate Implementation Steps and Testing in details with specific commands or instructions.
