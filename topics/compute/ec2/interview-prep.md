@@ -2,7 +2,7 @@
 ---
 ## Topics
 
-### A) EC2 Basics
+### 1) EC2 Basics
 ---
 
 
@@ -17,7 +17,6 @@
 - Q4: Can you explain the differences between On-Demand, Reserved, and Spot instances?
 - Q5: When would you choose a Dedicated Host over other pricing models?
   
----
 
 #### **Medium-Level Questions**
 
@@ -34,7 +33,6 @@
 - Q11: Your EC2 instance shows signs of a performance bottleneck. What tools and metrics would you use to diagnose the issue? How would you resolve CPU or network bottlenecks?
 - Q12: What steps would you take to migrate an EC2 instance from one region to another with minimal downtime?
 
----
 
 #### **Hard-Level Questions**
 
@@ -54,7 +52,7 @@
 - Q19: Your EC2 instances handle sensitive financial data. How would you enforce encryption in transit and at rest while ensuring performance isn't degraded? 
 - Q20: What security mechanisms would you implement for securing access to EC2 instances that belong to multiple departments in your organization, ensuring least privilege access using IAM roles and security groups?
 
-### B) Networking
+### 2) Networking
 ---
 
 
@@ -68,8 +66,6 @@
 
 **3. Security Groups and NACLs**
 - Q3: Can you explain the difference between Security Groups and Network Access Control Lists (NACLs)?
-
----
 
 #### **Medium-Level Questions**
 
@@ -97,7 +93,6 @@
 **8. VPC Flow Logs and Monitoring EC2 Network Traffic**
 - Q11: How would you enable and use VPC Flow Logs to monitor network traffic to and from your EC2 instances for security audits?
 
----
 
 #### **Hard-Level Questions**
 
@@ -122,7 +117,7 @@
 **7. VPC Flow Logs and Monitoring EC2 Network Traffic**
 - Q18: You are required to troubleshoot intermittent connectivity issues affecting an EC2 instance. How would you use VPC Flow Logs, along with other tools like AWS CloudWatch and AWS X-Ray, to identify the issue and ensure compliance with security policies?
 
-### C) Storage
+### 3) Storage
 ---
 
 #### **Easy-Level Questions**
@@ -139,7 +134,7 @@
 **4. S3 Integration with EC2**
 - Q4: How can you integrate Amazon S3 with EC2 for data storage and retrieval?
 
----
+
 
 #### **Medium-Level Questions**
 
@@ -161,7 +156,7 @@
 **6. S3 Integration with EC2**
 - Q10: How would you set up your EC2 instances to use S3 for frequent data access and ensure that the data is synchronized efficiently?
 
----
+
 
 #### **Hard-Level Questions**
 
@@ -189,7 +184,7 @@
 **8. Elastic File System (EFS)**
 - Q18: Your organization requires a highly available NFS solution that must be accessed by EC2 instances in multiple VPCs. How would you set up Amazon EFS with VPC peering or Transit Gateway to meet this requirement?
 
-### D) Security
+### 4) Security
 ---
 
 #### **Easy-Level Questions**
@@ -203,7 +198,7 @@
 **3. EC2 Security Groups Best Practices**
 - Q3: What are some best practices for configuring Security Groups to ensure EC2 instance security?
 
----
+
 
 #### **Medium-Level Questions**
 
@@ -225,7 +220,7 @@
 **6. EC2 Instance Metadata and Security Considerations**
 - Q9: What are some security risks associated with EC2 instance metadata? How would you mitigate these risks?
 
----
+
 
 #### **Hard-Level Questions**
 
@@ -250,7 +245,7 @@
 **7. EC2 Instance Metadata and Security Considerations**
 - Q16: An EC2 instance has been compromised, and you suspect that instance metadata might have been exploited. How would you investigate and mitigate potential exposure of sensitive data from the instance metadata service?
 
-### E) AMI - Amazon Machine Image
+### 5) AMI - Amazon Machine Image
 ---
 
 #### **Easy-Level Questions**
@@ -264,7 +259,7 @@
 **3. AMI Encryption and Sharing**
 - Q3: How do you share an AMI with another AWS account? What are the considerations for sharing AMIs?
 
----
+
 
 #### **Medium-Level Questions**
 
@@ -283,7 +278,7 @@
 **5. Golden AMI Pipeline**
 - Q8: What is a Golden AMI, and how would you implement a pipeline to create and maintain Golden AMIs? Describe the steps and tools involved in this process.
 
----
+
 
 #### **Hard-Level Questions**
 
@@ -305,7 +300,7 @@
 **6. Golden AMI Pipeline**
 - Q14: In a highly regulated environment, how would you ensure compliance and security when using a Golden AMI pipeline? Describe the steps to validate and audit the AMIs created by this pipeline to ensure they meet all regulatory requirements.
 
-### F) Auto Acaling
+### 6) Auto Scaling
 ---
 
 #### **Easy-Level Questions**
@@ -319,7 +314,7 @@
 **3. Monitoring Auto Scaling Activity**
 - Q3: How would you monitor the activity and performance of an Auto Scaling Group? What AWS services or tools would you use?
 
----
+
 
 #### **Medium-Level Questions**
 
@@ -338,7 +333,7 @@
 **5. Multi-AZ and Cross-Region Auto Scaling**
 - Q8: You need to set up an Auto Scaling Group that spans multiple Availability Zones (AZs) for high availability. How would you configure this, and what are the benefits of spreading instances across AZs?
 
----
+
 
 #### **Hard-Level Questions**
 
@@ -363,7 +358,7 @@
 **7. Multi-AZ and Cross-Region Auto Scaling**
 - Q15: Discuss how you would implement Auto Scaling across multiple AZs and regions while considering network latency, data replication, and failover strategies. What tools and practices would you use to maintain performance and reliability?
 
-### G) Elastic Load Balancing
+### 7) Elastic Load Balancing
 ---
 
 #### **Easy-Level Questions**
@@ -377,7 +372,7 @@
 **3. Load Balancer Health Checks and Monitoring**
 - Q3: How do you configure health checks for an Elastic Load Balancer (ELB), and why are they important?
 
----
+
 
 #### **Medium-Level Questions**
 
@@ -396,7 +391,7 @@
 **5. Cross-Zone Load Balancing**
 - Q8: What is cross-zone load balancing in ELB, and how would you enable it? What are the benefits of using cross-zone load balancing?
 
----
+
 
 #### **Hard-Level Questions**
 
@@ -418,7 +413,7 @@
 **6. Cross-Zone Load Balancing**
 - Q14: Design a solution where cross-zone load balancing is critical for maintaining high availability and performance. How would you handle situations where an Availability Zone experiences issues or becomes unavailable?
 
-### H) Optimization and Monitoring
+### 8) Optimization and Monitoring
 ---
 #### Easy-Level Questions
 
@@ -448,7 +443,7 @@
 
 - **Q11:** You need to design an optimization strategy that includes right-sizing, Spot Instances, and Reserved Instances for a large-scale deployment. How would you approach this problem and what steps would you take to ensure cost and performance are balanced?
 
-### I) Advanced Networking
+### 9) Advanced Networking
 ---
 
 #### Easy-Level Questions
@@ -479,7 +474,7 @@
 
 - **Q11:** You need to optimize network performance for a latency-sensitive EC2 application. How would you implement and fine-tune Enhanced Networking features such as SR-IOV and EFA to achieve the desired results?
 
-### J) Disaster Recovery and Backup
+### 10) Disaster Recovery and Backup
 ---
 #### Easy-Level Questions
 
@@ -503,7 +498,7 @@
 
 - **Q8:** You have an EC2 environment with multiple critical applications that require robust disaster recovery and backup strategies. How would you design a solution to meet high availability and data integrity requirements, including cross-region replication and automated failover?
 
-### K) High Availability and Fault Tolerance
+### 11) High Availability and Fault Tolerance
 ---
 #### Easy-Level Questions
 
@@ -527,7 +522,7 @@
 
 - **Q8:** Describe how you would architect a multi-region EC2 deployment for a global application with stringent availability and disaster recovery requirements. What are the best practices for managing traffic, data replication, and recovery processes?
 
-### L) Cost Management
+### 12) Cost Management
 ---
 #### Easy-Level Questions
 
@@ -551,7 +546,7 @@
 
 - **Q8:** Create a comprehensive cost control plan for an organization using EC2 Spot Instances and Reserved Instances. How would you balance the trade-offs between these options to achieve cost efficiency while maintaining application performance and availability?
 
-### M) Automation and DevOps
+### 13) Automation and DevOps
 #### Easy-Level Questions
 
 - **Q1:** How can you use AWS Systems Manager to automate common EC2 management tasks? What are some example use cases?
@@ -574,7 +569,7 @@
 
 - **Q8:** You need to deploy a complex multi-tier application on EC2 using AWS CodePipeline and CodeDeploy, while also ensuring automated rollbacks in case of deployment failures. How would you design and implement this setup to ensure high availability and minimal downtime?
 
-### N) Advanced Use Cases
+### 14) Advanced Use Cases
 ---
 #### Easy-Level Questions
 
@@ -598,7 +593,7 @@
 
 - **Q8:** Create a hybrid cloud architecture using EC2 and AWS Outposts to ensure seamless integration between on-premises and cloud environments for a critical application. How would you handle data synchronization, network latency, and failover requirements?
 
-### O) Compliance and Governance
+### 15) Compliance and Governance
 ---
 #### Easy-Level Questions
 
@@ -622,7 +617,7 @@
 
 - **Q8:** You need to ensure ongoing compliance with multiple standards (HIPAA, GDPR, PCI DSS) for a diverse set of EC2 instances. How would you architect a solution that incorporates continuous monitoring, automated compliance checks, and reporting?
 
-### P) Migration
+### 16) Migration
 #### Easy-Level Questions
 
 - **Q1:** What is AWS Server Migration Service (SMS), and how does it assist in migrating on-premises servers to EC2? What are its key features?
@@ -645,7 +640,7 @@
 
 - **Q8:** You are tasked with migrating a critical, high-performance database to EC2 using AWS DMS. Describe your approach to handling challenges such as data transformation, synchronization, and minimizing downtime during the migration.
 
-### Q) Troubleshooting
+### 17) Troubleshooting
 ---
 >**Set 1**
 #### Easy-Level Questions

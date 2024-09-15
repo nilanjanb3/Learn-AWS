@@ -8,7 +8,7 @@ To master AWS at an advanced level, you need a comprehensive understanding acros
 
 ### **1. Core AWS Services (Compute, Storage, Networking)**
 - **[Compute](https://aws.amazon.com/products/compute/)**  
-  - **EC2 - Elastic Compute Cloud**: EC2 instances, instance types, AMIs, EBS volumes [Topics](./topics/compute/ec2/reading-topics.md) | [Labs]() | [Scenarios]()
+  - **EC2 - Elastic Compute Cloud**: EC2 instances, instance types, AMIs, EBS volumes [Topics](./topics/compute/ec2/reading-topics.md) | [Labs](./topics/compute/ec2/labs.md) | [Scenarios](./topics/compute/ec2/interview-prep.md)
   - **Lambda**: Serverless functions, event-driven architecture, Lambda layers
   - **Elastic Beanstalk**: Deploy and manage applications
   - **Auto Scaling**: Scaling policies, lifecycle hooks
